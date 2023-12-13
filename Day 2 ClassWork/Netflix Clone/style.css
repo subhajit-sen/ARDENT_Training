@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#352F44;
+}
+.title{
+   
+    height: 0px;
+    width: 0%;
+    background-color:transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.title h1{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-family: 'Roboto Slab', serif;
+    color :red
+}
+.card1{
+    height: 350px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    border-radius: 15px;
+}
+.card1 img{
+    border-radius: 15px 15px 0px 0px;
+}
+.card1 h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 15px 0px 0px 20px;
+}
+.card1 span{
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    padding-left: 20px;
+}
+.btn{
+    display: block;
+    text-align: center;
+}
+.btn button{
+    margin-top: 15px;
+    border: none;
+    padding: 7px 40px;
+    color: #fff;
+    background-color: #65B741;
+    box-shadow: 0px 1px 1px rgba(9, 30, 66, 0.25), 0px 0px 1px 1px rgba(9, 30, 66, 0.13);
+}
+
+
+@media(max-width:600px){
+    .card1{
+        margin-top: 20px;
+    }
+    .title{
+        height: auto;
+    }
+}
